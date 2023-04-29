@@ -1,6 +1,7 @@
 package github.com.carloshenriquepere.localizacao.domain.repository;
 
 import github.com.carloshenriquepere.localizacao.domain.entity.Cidade;
+<<<<<<< HEAD
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -41,4 +42,9 @@ public interface CidadeRepository  extends JpaRepository<Cidade, Long> {
     List<Cidade> findByHabitantesLessThanAndNomeLike(Long habitantes, String nome);
 
 
+=======
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CidadeRepository  extends JpaRepository<Cidade, Long> {
+>>>>>>> origin/main
 }
