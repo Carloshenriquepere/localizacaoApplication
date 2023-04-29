@@ -40,5 +40,5 @@ public interface CidadeRepository  extends JpaRepository<Cidade, Long> {
     //Menor que e o Like(%)
     List<Cidade> findByHabitantesLessThanAndNomeLike(Long habitantes, String nome);
 
-
 }
+
