@@ -7,7 +7,7 @@ create table tb_cidade(
 insert into tb_cidade
     (id_cidade, nome, qtd_habitantes)
 values
-    (1, 'São paulo', 12396372),
+    (1, 'São Paulo', 12396372),
     (2, 'Rio de Janeiro', 10000000),
     (3, 'Fortaleza', 8000000),
     (4, 'Salvador', 7000000),
